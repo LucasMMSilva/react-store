@@ -1,0 +1,72 @@
+.card {
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.card-description {
+  margin-top: -5px;
+  font-size: 0.9rem;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.card-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+}
+
+.card-discount {
+  color: green;
+  margin-top: 0px;
+  font-size: 0.8rem;
+  margin-bottom: -5px;
+  font-weight: 500;
+}
+
+.card-discount .original-price {
+  color: #333;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.card-installments {
+  font-size: 0.7rem;
+  color: #333;
+  margin-top: -2px;
+}
+
+a {
+  text-decoration: none;
+}

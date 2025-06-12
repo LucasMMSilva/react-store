@@ -1,0 +1,82 @@
+div.product-detail {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+}
+
+div.product-detail div.product-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #00000080 0px 2px 8px;
+}
+
+div.product-content {
+    margin-left: 30px;
+}
+
+div.product-detail div.product-image img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+}
+
+.product-description {
+  margin-top: -5px;
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+}
+
+.product-discount {
+  color: green;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  margin-bottom: -5px;
+  font-weight: 500;
+}
+
+.product-discount .original-price {
+  color: #555;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.product-installments {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: -2px;
+}
+
+.add-to-cart {
+    background-color: rgb(255, 187, 0);
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.orthers-products-title {
+    font-size: 1.4rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+}
