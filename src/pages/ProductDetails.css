@@ -64,13 +64,22 @@ div.product-detail div.product-image img {
 }
 
 .add-to-cart {
-    background-color: rgb(255, 187, 0);
-    color: #333;
-    font-weight: 600;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
+  background-color: rgb(255, 187, 0);
+  color: #333;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(245, 180, 0);
+}
+
+.add-to-cart:active {
+  background-color: rgb(209, 155, 6);
 }
 
 .orthers-products-title {

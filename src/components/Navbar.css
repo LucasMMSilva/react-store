@@ -32,5 +32,10 @@ div.title-cart {
 
 .secundary-navbar {
     background-color: #002152;
-    padding: 10px 50px 10px 0px;
+    padding: 10px 0px 10px 50px;
+}
+
+.secundary-navbar .category {
+    margin-right: 30px;
+    color: white;
 }
