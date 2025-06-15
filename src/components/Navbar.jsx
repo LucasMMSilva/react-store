@@ -25,7 +25,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <NavLink to="/">
-          <img src="/img/logo.png" alt="Logo" />
+          <img className="logo" src="/img/logo.png" alt="Logo" />
         </NavLink>
 
         <div className="cart">

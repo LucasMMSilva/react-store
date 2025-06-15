@@ -1,0 +1,67 @@
+div.cart-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+
+div.cart-item div.cart-item-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.cart-item div.cart-item-image img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+div.cart-item div.cart-item-content {
+
+}
+
+div.cart-item div.cart-item-content h2.cart-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0px;
+}
+
+div.cart-item div.cart-item-content p.cart-item-price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3d3d3d;
+    margin: 0px;
+}
+
+div.cart-item div.cart-item-content div.qty-itens {
+    display: flex;
+}
+
+div.cart-item div.cart-item-content div.qty-itens button.cart-qty-btn {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    color: white;
+    background-color: #002152;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+div.cart-item div.cart-item-content div.qty-itens p.cart-item-qty {
+    display: inline;
+    padding: 0 10px;
+}
+
+div.cart-item div.cart-item-content div.qty-itens a.btn-remove-item-to-cart {
+    color: rgb(190, 1, 1);
+    display: inline-block;
+    align-self: center;
+    margin-left: 10px;
+    cursor: pointer;
+}

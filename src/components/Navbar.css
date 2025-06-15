@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    height: 100%;
+}
+
 .cart {
     display: inline;
 }
@@ -18,21 +23,21 @@
 div.totalItems {
     color: #333;
     text-align: center;
-    margin-top: -3px;
     background-color: darkorange;
     font-weight: 500;
     border-radius: 5px;
 }
 
 div.title-cart {
-    margin: 0;
     color: #333;
     font-size: 0.9rem;
+    line-height: 16px;
 }
 
 .secundary-navbar {
     background-color: #002152;
-    padding: 10px 0px 10px 50px;
+    padding: 6px 0px 6px 50px;
+    overflow: hidden;
 }
 
 .secundary-navbar .category {
