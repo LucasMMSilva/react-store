@@ -30,7 +30,7 @@ function Cart() {
       <div className="finaly-cart">
         <h3>Total:</h3>
         <h2>R$ {total.toFixed(2).replace('.', ',')}</h2>
-        <button className='btn-finaly' onClick={clearCart}>Limpar Carrinho</button>
+        <button className='btn-finaly' onClick={clearCart}>Finalizar compra</button>
       </div>
     </div>
     

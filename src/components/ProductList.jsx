@@ -46,4 +46,3 @@ function ProductList({ category, currentId }) {
 }
 
 export default ProductList;
- 

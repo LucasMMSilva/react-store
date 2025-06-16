@@ -28,11 +28,11 @@ function ProductDetails() {
   }, [id]);
 
   if (loading) {
-    return <p>Carregando...</p>;
+    return <p className='container'>Carregando...</p>;
   }
 
   if (!product) {
-    return <p>Produto não encontrado.</p>;
+    return <p className='container'>Produto não encontrado.</p>;
   }
 
   return (
