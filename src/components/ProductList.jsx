@@ -29,7 +29,7 @@ function ProductList({ category, currentId }) {
     },[category, currentId]);
 
     if (loading) {
-        return <p>Aguarde um momento...</p>;
+        return <p className="container">Aguarde um momento...</p>;
     }
 
     return (

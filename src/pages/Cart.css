@@ -1,0 +1,22 @@
+.cart-container {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+
+.finaly-cart h3{
+    margin-bottom: 0;
+}
+
+.finaly-cart h2{
+    margin: 0;
+}
+
+button.btn-finaly {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 1.05rem;
+    margin-top: 30px;
+    border: none;
+    background-color: darkorange;
+}
