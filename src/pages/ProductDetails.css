@@ -34,6 +34,10 @@ div.product-detail div.product-image img {
   font-size: 1rem;
   color: #555;
   margin: 10px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .product-price {
